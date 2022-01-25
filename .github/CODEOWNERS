@@ -1,0 +1,9 @@
+#Default ownership goes to the lead devs. Will go to both unless another 
+#match takes precedence.
+* @jessicant @annawng
+
+# Ownership of backend work goes to Jess to review
+/back-end @jessicant
+
+#Ownership of front end goes to Anna to review
+/front-end @annawng

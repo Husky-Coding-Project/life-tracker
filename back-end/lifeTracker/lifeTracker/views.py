@@ -8,7 +8,8 @@ config = {
     "storageBucket": "lifetracker-3ae8c.appspot.com",
     "messagingSenderId": "58044515519",
     "appId": "1:58044515519:web:a912b3668ce5b05b63720a",
-    "measurementId": "G-Y8FTLG1LEX"
+    "measurementId": "G-Y8FTLG1LEX",
+    "databaseURL" : "https://lifetracker-3ae8c-default-rtdb.firebaseio.com/"
 }
 
 firebase = pyrebase.initialize_app(config)
@@ -17,3 +18,7 @@ auth = firebase.auth()
 
 def signIn(request):
     return render(request, "signIn.html")
+
+def postsign(request):
+
+    return render(request, "welcome.html")
